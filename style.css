@@ -101,3 +101,8 @@ main{
     color: var(--color-white);
     height: 80px;
 }
+.right{
+    min-width: 50px;
+    background-color: var(--color-grey);
+    color: var(--color-red);
+}
