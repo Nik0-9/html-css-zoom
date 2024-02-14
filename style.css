@@ -80,7 +80,7 @@ main{
     gap: 15px 5px;
 }
 .user{
-    background-image: url('https://picsum.photos/seed/{1}/300/200');
+    background-image: url('https://picsum.photos/300/200');
     position: relative;
     background-color: #4bc800;
     width: calc(100% / 7 - 20px);
@@ -89,7 +89,7 @@ main{
 }  
 .info{
     position: absolute;
-    background-color: rgba(80, 80, 80, 0.3);
+    background-color: rgba(80, 80, 80, 0.5);
     color: var(--color-white);
     padding: 1px;
     bottom:0;
@@ -106,7 +106,20 @@ main{
     background-color: var(--color-grey);
     color: var(--color-red);
 }
-i{
-    font-size: 3em;
+#toolbar i:not(.fa-chevron-up){
+    font-size: 2em;
     margin: 5px 15px;
 }
+
+#toolbar h5{
+    font-size: 1.2em;
+    margin: 0 5px;
+}
+
+#toolba div>div{
+    margin: 0 5px;
+}
+.right>p{
+    padding: 0 15px;
+}
+
