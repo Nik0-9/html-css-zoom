@@ -102,7 +102,11 @@ main{
     height: 80px;
 }
 .right{
-    min-width: 50px;
+    
     background-color: var(--color-grey);
     color: var(--color-red);
+}
+i{
+    font-size: 3em;
+    margin: 5px 15px;
 }
