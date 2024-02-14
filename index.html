@@ -13,16 +13,16 @@
 
 <body>
     <div id="app">
-        <header class="d-flex flex-end align-center">
+        <header class="d-flex flex-end align-center-items">
             <div class="btn">
                 <i class="fa-solid fa-table-cells"></i>
-                &nbsp; speaker view
+                &nbsp; <span class="capitalize">speaker view</span>
             </div>
             <div class="btn">
                 <i class="fa-solid fa-maximize"></i>
             </div>
         </header>
-        <main class="d-flex wrap flex-center align-center">
+        <main class="d-flex wrap flex-center align-center-content">
 
             <div class="user">
                 <div class="info">
@@ -227,17 +227,38 @@
                     <i class="fa-solid fa-microphone-slash"></i>&nbsp; Nome
                 </div>
 
-            <!-- </div>
+                <!-- </div>
             <div class="user">
                 <div class="info">
                     <i class="fa-solid fa-microphone-slash"></i>&nbsp; Nome
                 </div> -->
 
             </div>
-            
+
         </main>
-        <div id="toolbar">
-            toolbar
+        <div id="toolbar" class="d-flex flex-between">
+            <div class="left">
+                <div class="d-flex dir-column">
+                    <i class="fa-solid fa-microphone"></i>
+                    <span class="capitalize">mute</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="d-flex dir-column">
+                    <i class="fa-solid fa-video"></i>
+                    <span class="capitalize">stop video</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+            </div>
+            <div class="center">
+                centro
+            </div>
+            <div class="right">
+                destra
+            </div>
         </div>
     </div>
 </body>
